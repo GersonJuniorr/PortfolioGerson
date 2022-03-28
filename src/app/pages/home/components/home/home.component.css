@@ -55,7 +55,7 @@ nav li a:hover::before {
 
 .desc {
   font-size: 25px;
-  color: rgb(255, 255, 255);
+  color: #8F9BA8;
   font-family: 'Ubuntu', sans-serif;
   margin-top: 20px;
 }
@@ -67,5 +67,5 @@ nav li a:hover::before {
   margin-top: -50px;
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(to left bottom, #d61583, #bd3196, #9f42a2, #7f4ea7, #5f55a5, #4862ad, #2c6cb1, #0076b2, #008cbe, #00a1c3, #00b4c1, #16c7bb);
+  background-color: #08070B;
 }

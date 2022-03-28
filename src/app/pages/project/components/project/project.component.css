@@ -1,71 +1,27 @@
-nav ul {
+.title-projeto {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-}
-
-nav li a {
-  margin-left: 80px;
-  font-size: 20px;
-  color: white;
-  font-family: 'Ubuntu', sans-serif;
-  margin-top: 40px;
-}
-
-nav li a {
-  text-decoration: none;
-  position: relative;
+  margin-top: 90px;
   color: #fff;
-  text-decoration: none;
-}
-
-nav li a::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  top: 23px;
-  bottom: 0;
-  left: 0;
-  background-color: grey;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-nav li a:hover::before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
-
-
-.img-header {
-  width: 120px;
-}
-
-.title {
-  font-size: 50px;
   font-family: 'Ubuntu', sans-serif;
-  font-weight: bold;
-  color: white;
-}
-
-.desc {
   font-size: 25px;
-  color: rgb(255, 255, 255);
-  font-family: 'Ubuntu', sans-serif;
-  margin-top: 20px;
 }
 
-.container-div {
+.all-card {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  margin-top: -50px;
-  width: 100vw;
-  height: 100vh;
-  background-image: linear-gradient(to left bottom, #d61583, #bd3196, #9f42a2, #7f4ea7, #5f55a5, #4862ad, #2c6cb1, #0076b2, #008cbe, #00a1c3, #00b4c1, #16c7bb);
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  margin-top: 50px;
+  background-color: grey;
+  width: 50vw;
+  height: 150px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.img-card {
+  width: 170px;
 }
