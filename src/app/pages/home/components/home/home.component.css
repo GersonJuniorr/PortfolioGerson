@@ -51,6 +51,9 @@ nav li a:hover::before {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   color: white;
+  background: linear-gradient(135deg, #9580ff, #8aff80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .desc {
