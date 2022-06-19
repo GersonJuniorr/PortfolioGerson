@@ -72,3 +72,17 @@ nav li a:hover::before {
   height: 100vh;
   background-color: #08070B;
 }
+
+@media (max-width: 765px) {
+  .title {
+    font-size: 40px;
+  }
+
+  .desc {
+    font-size: 18px;
+  }
+
+  .imgPerson {
+    display: none;
+  }
+}
