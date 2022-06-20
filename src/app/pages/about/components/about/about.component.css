@@ -37,3 +37,15 @@ img {
   max-width: 500px;
   margin-left: 5rem;
 }
+
+@media (max-width: 765px) {
+  .container-about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-about {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
